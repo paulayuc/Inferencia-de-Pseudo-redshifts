@@ -158,7 +158,7 @@ def comptonized_flux_ergs(A_compton, E_peak, E_piv=100, photon_index=-0.7, E_min
 
     return flux_ergs, error_ergs
 
-
+### Función que encuentra el bin con el 15% de margen de error de E_peak
 def ajustemulticomp_grb(nombre_grb, cspecs, bkgds, rsps, bin_inicial=0.512, bin_max=4,
                         erange_nai=(8.0, 900.0), erange_bgo=(650, 35000.0), margen_error=10,
                         data="GRBs_data.dat"):
